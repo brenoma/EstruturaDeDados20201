@@ -1,8 +1,8 @@
-package br.edu.ifce.computacao.estruturadedadosfila;
+package br.edu.ifce.computacao.estruturadedados.pilha;
 
 /**
  * 
- *  TAD (Tipo Abstrato de Dados) Fila
+ *  TAD (Tipo Abstrato de Dados) Pilha
  * 
  * @author Breno Menezes (breno.menezes.alencar05@aluno.ifce.edu.br)
  *
@@ -12,20 +12,22 @@ package br.edu.ifce.computacao.estruturadedadosfila;
  *
  */
 
-public interface Fila {
-	
+public interface Pilha {
+
 	/**
 	 * Operações Principais
 	 */
 	
-	public void addEnd(Integer value);
-	public Integer removeStart();
+	public void push(Integer value);
+	public Integer pop();
+	
 	
 	/**
-	 *  Operações Auxiliares
+	 * Operações Auxiliares
 	 */
 	
 	public boolean isFull();
 	public boolean isEmpty();
 	public void show();
+	
 }
