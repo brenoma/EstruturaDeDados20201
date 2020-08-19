@@ -9,15 +9,15 @@ In computer science, a data structure is a data organization, management, and st
 
 ### **Queues, Stacks and Lists**
 
-- Static Allocation
+- [**Static Allocation**](#static-alloc)
 	- [Queue](#static-queue)
 	- [Stack](#static-stack)
 	- [List](#static-list)
 	
-- Dynamic Allocation
-	- [Queue](#dyn-queue)
+- [**Dynamic Allocation**](#dynamic-alloc)
+	- [Queue](#dynamic-queue)
 	
-## Static Allocation
+## <div id="static-alloc" />Static Allocation
 
 ### <div id="static-queue" />Queue
 
@@ -31,6 +31,10 @@ A stack uses the same concept of the queues but instead of using the FIFO operat
 
 A list is when an entity inserted will be inserted on the desired location and will be no order to take out, any entity on the list can be popped out.
 
-## Dynamic Allocation
+## <div id="dynamic-alloc" />Dynamic Allocation
 
 In dynamic allocation of memory, when you need for example to increase your vector size it will be allocated more memory for usage. Gives more flexibility but always when inserting a new entity the memory will be allocated.
+
+### <div id="dynamic-queue" />Queue
+
+In this lesson i've learned how to implement the queue with dynamic allocation, i used the concept of Objects to create nodes that saves the value of it and the value of next node, and used an Object called header that is the first Node of the queue.
