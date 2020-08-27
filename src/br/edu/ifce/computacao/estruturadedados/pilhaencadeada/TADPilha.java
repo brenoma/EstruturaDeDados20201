@@ -1,21 +1,21 @@
-package br.edu.ifce.computacao.estruturadedados.filaencadeada;
+package br.edu.ifce.computacao.estruturadedados.pilhaencadeada;
 
 /*
  * 
- * TAD (Tipo Abstrato de Dados) Fila Encadeada
+ * TAD (Tipo Abstrato de Dados) Pilha Encadeada
  * 
  * @author Breno Menezes (breno.menezes.alencar05@aluno.ifce.edu.br)
  *
- * @since 23/08/2020
+ * @since 27/08/2020
  * 
  * @version 1.0
  * 
  */
 
-public interface TADFila<T> {
+public interface TADPilha<T> {
 
 	/*
-	 *  Operações Principais
+	 * Operações Principais
 	 */
 	
 	public void push(T value);

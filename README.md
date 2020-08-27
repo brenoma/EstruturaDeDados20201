@@ -16,6 +16,7 @@ In computer science, a data structure is a data organization, management, and st
 	
 - [**Dynamic Allocation**](#dynamic-alloc)
 	- [Queue](#dynamic-queue)
+	- [Stack](#dynamic-stack)
 	
 ## <div id="static-alloc" />Static Allocation
 
@@ -38,3 +39,9 @@ In dynamic allocation of memory, when you need for example to increase your vect
 ### <div id="dynamic-queue" />Queue
 
 In this lesson i've learned how to implement the queue with dynamic allocation, i used the concept of Objects to create nodes that saves the value of it and the value of next node, and used an Object called header that is the first Node of the queue.
+
+### <div id="dynamic-stack" />Stack
+
+Stacks uses the same concept of queues but instead of removing first elements inserted, the last one will be removed. Using the concept of pointer we just create a Node that points to the last element inserted, and when it is removed it will be pointed to the next element so when the garbage collector does its work it will be cleared.
+
+### <div id="dynamic-list" />List
