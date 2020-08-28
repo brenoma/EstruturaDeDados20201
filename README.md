@@ -17,8 +17,17 @@ In computer science, a data structure is a data organization, management, and st
 - [**Dynamic Allocation**](#dynamic-alloc)
 	- [Queue](#dynamic-queue)
 	- [Stack](#dynamic-stack)
+	- [List](#dynamic-list)
 	
 ## <div id="static-alloc" />Static Allocation
+
+**Advantages:**
+	- Keeps data organized when allocated side by side in a vector.
+	- Has faster access speed to the memory.
+	
+**Disadvantages:**
+	- To change the address you need to change your code.
+	- The allocated memory will always be allocated, so if you reserved 100 positions on a vector and use just 10 the memory of the 90 will be allocated anyway.
 
 ### <div id="static-queue" />Queue
 
@@ -45,3 +54,4 @@ In this lesson i've learned how to implement the queue with dynamic allocation, 
 Stacks uses the same concept of queues but instead of removing first elements inserted, the last one will be removed. Using the concept of pointer we just create a Node that points to the last element inserted, and when it is removed it will be pointed to the next element so when the garbage collector does its work it will be cleared.
 
 ### <div id="dynamic-list" />List
+
