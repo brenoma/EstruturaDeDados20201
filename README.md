@@ -43,6 +43,14 @@ A list is when an entity inserted will be inserted on the desired location and w
 
 ## <div id="dynamic-alloc" />Dynamic Allocation
 
+**Advantages:**
+- To be continued...
+- To be continued...
+
+**Disadvantages:**
+- To be continued...
+- To be continued...
+
 In dynamic allocation of memory, when you need for example to increase your vector size it will be allocated more memory for usage. Gives more flexibility but always when inserting a new entity the memory will be allocated.
 
 ### <div id="dynamic-queue" />Queue
