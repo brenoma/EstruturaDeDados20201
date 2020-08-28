@@ -22,12 +22,12 @@ In computer science, a data structure is a data organization, management, and st
 ## <div id="static-alloc" />Static Allocation
 
 **Advantages:**
-	- Keeps data organized when allocated side by side in a vector.
-	- Has faster access speed to the memory.
+- Keeps data organized when allocated side by side in a vector.
+- Has faster access speed to the memory.
 	
 **Disadvantages:**
-	- To change the address you need to change your code.
-	- The allocated memory will always be allocated, so if you reserved 100 positions on a vector and use just 10 the memory of the 90 will be allocated anyway.
+- To change the address you need to change your code.
+- The allocated memory will always be allocated, so if you reserved 100 positions on a vector and use just 10 the memory of the 90 will be allocated anyway.
 
 ### <div id="static-queue" />Queue
 
